@@ -20,6 +20,16 @@ molecular orbitals calculated for caffeine at B3LYP/6-31G(d) using the
 `psi4  <https://psicode.org/psi4manual/master/cubeprop.html>`_
 computational chemistry program.
 
+The above file can be rendered as a point cloud, 
+with red representing positive values;
+blue representing negative values and
+points scaled by a factor of 3.0.
+
+.. image:: _static/point_cloud.png
+  :alt: Point cloud representation of _testfiles/caffeine_54.cube
+
+
+
 Cubefile file format reference: `http://paulbourke.net/dataformats/cube/
 <http://paulbourke.net/dataformats/cube/>`_.
 
