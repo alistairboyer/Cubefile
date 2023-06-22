@@ -2,7 +2,9 @@ Cubefile
 ========
 
 Cube files are generated from quantum mechanical chemistry calculations.
-They contain data about the atoms of a molecule: their element, charge and position. 
+They contain data about the atoms of a molecule: their element, charge and position,
+as well as volume data from molecular orbital calculations - where you 
+can expect to find electrons within a molecule.
 
 
 This package contains a single module for processing cube files. Example usage:
